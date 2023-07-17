@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a class="header__link" href="./index.html" title="Accueil"><img class="header__img" src="./assets/logoXs.png" alt="Logo de la société"></a>
+        <input aria-label="Rechercher un produit" type="text" class="header__search" placeholder="Rechercher ...">
+        <nav class="header__nav">
+            <a class="header__item" data-content="Espace Pro" href="#espace-pro">Espace Pro</a>
+            <a class="header__item" data-content="Mon compte" href="">Mon compte</a>
+            <a class="header__item" data-content="Panier" href="./shopping-cart.html">Panier</a>
+            <a class="header__item" data-content="Contact" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="main" class="main__label">
+        <h1 id="main__title"> Mettre en vente</h1>
+        <div class="main__wrapper">
+            <label for="product-name" class="main__label"> 
+                Nom du produit : 
+           </label>
+           <input type="text" class="main__input" id="product-name" placeholder="Ex : Carte graphique PNY GTX 1660">
+        </div>
+        <div class="main__wrapper">
+            <label for="product-cara" class="main__label"> 
+                Caractéristique du produit : 
+            </label>
+            <input type="text" class="main__input" id="product-cara" placeholder="Ex : Consommation d'énergie en mode veille 54w">
+        </div>
+        <div class="main__wrapper">
+            <label for="product-image" class="main__label"> 
+                Photo de l'objet : 
+            </label>
+            <input type="file" class="main__input" id="product-image" placeholder="Aucun Message">
+        </div>
+        <div class="main__wrapper">
+            <label for="product-quantity" class="main__label" > 
+                Quantité à vendre :
+            </label>
+            <input type="text" class="main__input" id="product-quantity" placeholder="Ex : 5">
+        </div>
+        <div class="main__wrapper">
+            <label for="product-price" class="main__label"> 
+                Prix de vente (à l'unité) : 
+            </label>
+            <input type="text" class="main__input" id="product-price" placeholder="Ex : 361,91€">
+        </div>
+        <button id="bouton-suivant"
+                type="button">
+            Suivant
+        </button>
+        
+
+
+
+    </section>
+    <footer id="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">Qui somme nous?</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">CGV</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">avis clients</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">partenaires</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

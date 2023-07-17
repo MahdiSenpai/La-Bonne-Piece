@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La bonne pièce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a class="header__link" href="./index.html" title="Accueil"><img class="header__img" src="./assets/logoXs.png" alt="Logo de la société"></a>
+        <input aria-label="Rechercher un produit" type="text" class="header__search" placeholder="Rechercher ...">
+        <nav class="header__nav">
+            <a class="header__item" data-content="Espace Pro" href="#espace-pro">Espace Pro</a>
+            <a class="header__item" data-content="Mon compte" href="">Mon compte</a>
+            <a class="header__item" data-content="Panier" href="./shopping-cart.html">Panier</a>
+            <a class="header__item" data-content="Contact" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="main">
+        <h1 class="main__title">Carte son interne 5.1 Sound Blaster</h1>
+        <article class="product">
+            <div class="product__carousel">
+                <img src="./assets/min-carte-son01.1.jpeg" alt="Une carte son vue de côté">
+                <img src="./assets/min-carte-son01.3.jpeg" alt="Une carte son vue de dessus">
+                <img src="./assets/min-carte-son01.4.jpeg" alt="Une boite d'emballage">
+                <img src="./assets/min-carte-son01.5.jpeg" alt="Une carte son vue de face">
+            </div>
+            <img class="product__img" src="./assets/carte-son01.webp" alt="Une carte son">
+            <div class="product__other">
+                <h2>Vendu et expédié par Digital Tech</h2>
+                <div class="product__quantity">
+                    <label for="quantite">Quantité</label>
+                    <select name="Quantite" id="quantite">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="product__options">
+                    <label for="options">Options</label>
+                    <select name="Options" id="options">
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                        <option value="option3">Option3</option>
+                    </select>
+                </div>
+                <p>Prix : 49,90 €</p>
+                <button class="product__btn">Ajouter au panier</button>
+            </div>
+        </article>
+        <aside class="product__info">
+            <h2>Sound Blaster Audigy Fx</h2>
+            <p>
+                La Sound Blaster Audigy Fx va vous ravir ! Cette carte son avec une demi-hauteur de construction 
+                est basée sur la technologie SBX Pro Studio et transforme votre système en un système de divertissement
+                5.1 avec un son de qualité cinéma - parfait pour les films, la musique et les jeux. 
+                Profitez d'une expérience sonore individuelle, car avec la suite logicielle PC Panneau de
+                contrôle Sound Blaster Audigy Fx (à télécharger), vous pouvez régler parfaitement SBX Pro Studio
+                selon vos désirs. Un convertisseur numérique / analogique (lecture, 24 bits, 192 kHz) 
+                avec un rapport signal/bruit de 106 dB et un ampli casque de qualité professionnelle (600 ohms) 
+                viennent compléter l'équipement.
+            </p>
+        </aside>
+    </section>
+    <footer id="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">Qui somme nous?</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">CGV</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">avis clients</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="header-nav__first-link">partenaires</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
